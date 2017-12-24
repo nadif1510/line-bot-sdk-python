@@ -42,8 +42,8 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('gChJjHkMcy1AGDutP0L6VE0t+7zuyaxeSR/X6ruL8mWsbumHZ3lrdEYCkfHjfwcMGbFC4LBhhu3vZTdf5pcIlWVlpLW+LyHBXp35UnGr1dvrjdx+VUlWCMdLzA73DlM1CHJNBqu8GnOPUM231LO6TgdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('9511947a787d5f2dc1a0089f1055d3eb')
+line_bot_api = LineBotApi('owoN+x+fbKY8mJnfRCuxicsSJ08ieWuyq8SgQr0L2525RCO+lXtIAnzK05jDVY8nRPd5xFGDypW/hn/ys/UxNvCXV6I/FyCGa7JbNxOqYUTpEC/Ju7gpWxDiRsZuvIv2kohMsBOZfGPXpTCzV/kJewdB04t89/1O/w1cDnyilFU=)
+handler = WebhookHandler('c4017288b43b7d8f066366e9d805e65d')
 
 static_tmp_path = os.path.join(os.path.dirname(__file__), 'static', 'tmp')
 
